@@ -1,19 +1,19 @@
 
 # Enviromental Sound Classification 
-The goal of this project was to develop a machine learning model that can classify different types of environmental sounds. We used sound clips from the **UrbanSound8K dataset** and trained a **convolutional neural network (CNN)** for sound identification.
+The goal of this project was to develop a machine learning model that can classify different types of environmental sounds. We used sound clips from the **UrbanSound8K dataset** and trained a **Artificial neural network (ANN)** for sound identification.
 
 The project uses **TensorFlow and Keras** to develop a deep learning model for classifying different environmental sounds. While Keras performed well, no PyTorch implementation was included. The following sections will focus on building the sound classification model using **Keras**.
 ## Topics
 1. Data Preprocessing 
 2. Digital Signal Processing (Log-Mel Spectrograms)
-3. Convolutional Neural Networks
+3. Artificial Neural Networks
 4. Sound Classification
 ## Technologies
 1. Python
 2. Colab
 3. TensorFlow,Keras
 4. MNumpy, Panda, Matplotlib, Librosa
-5. CNN.
+5. ANN.
 ## Dataset
 UrbanSound8K
 The **Results** section presents an analysis based on **10-fold cross-validation**. The model, built using **Keras**, achieved an accuracy of **89.02133%** and a loss of **.98** on the **UrbanSound8K dataset**.
@@ -33,3 +33,4 @@ The **Results** section presents an analysis based on **10-fold cross-validation
   
   In addition to the sound excerpts, a CSV file containing metadata about each excerpt is also provided.
 ## Result
+We got result with 89% accuracy.
