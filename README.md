@@ -16,7 +16,7 @@ The project uses **TensorFlow and Keras** to develop a deep learning model for c
 5. CNN.
 ## Dataset
 UrbanSound8K
-The **Results** section presents an analysis based on **10-fold cross-validation**. The model, built using **Keras**, achieved an accuracy of **89.02133%** and a loss of **.98** on the **UrbanSound8K dataset**.
+The **Results** section presents an analysis based on **10-fold cross-validation**. The model, built using **Keras**, achieved an accuracy of **89.02133%** and a loss of **.58** on the **UrbanSound8K dataset**.
 "This dataset contains 8732 labeled sound excerpts (<=4s) of urban sounds from 10 classes:
 
   1. air_conditioner,
